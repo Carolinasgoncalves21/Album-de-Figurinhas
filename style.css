@@ -56,11 +56,11 @@ body {
 #galeria {
     background-color: #33b1bb;
     color: #FFFFFF;
-    justify-content: space-around;
     font-size: 36px;
-    display: flex;
     height: 1700px;
     width: auto;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .foto-galeria {
@@ -91,7 +91,10 @@ body {
 .galeria-todos {
     text-align: center;
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    justify-items: center;
+    gap: 20px;
 }
 
 .rodape {
