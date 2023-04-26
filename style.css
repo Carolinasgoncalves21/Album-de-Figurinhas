@@ -8,6 +8,7 @@
 body {
     font-family: sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    width: auto;
 }
 
 .logo-cabeçalho {
@@ -33,6 +34,7 @@ body {
     margin:auto;
     padding: auto;
     height: 400px;
+    width: auto;
 }
 
 .titulo-formadores {
@@ -58,6 +60,7 @@ body {
     font-size: 36px;
     display: flex;
     height: 1700px;
+    width: auto;
 }
 
 .foto-galeria {
