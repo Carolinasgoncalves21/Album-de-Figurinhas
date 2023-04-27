@@ -56,16 +56,18 @@ body {
 #galeria {
     background-color: #33b1bb;
     color: #FFFFFF;
+    text-align: center;
     font-size: 36px;
-    height: 1700px;
+    height: 1500px;
     width: auto;
     justify-content: space-around;
     flex-direction: column;
 }
 
 .foto-galeria {
+    text-align: center;
     padding-top: 5px;
-    width: 150px;   
+    width: 120px;   
     border-radius: 5%;
 }
 
@@ -94,12 +96,12 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto;
     justify-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .rodape {
     background-image: linear-gradient(#33b1bb, #E2CBCB);
-    height: 100px;
+    height: 120px;
     
 }
 
@@ -107,7 +109,7 @@ body {
     color: #A9248F;
     text-align: center;
     font-size: 12px;
-    padding-top: 50px;
+    padding-top: 80px;
 
 }
 
